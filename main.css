@@ -1,0 +1,41 @@
+     body{ 
+            background-image: url("bgimage.png");
+            background-size: cover; 
+     }
+
+     .video_selector{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -999;
+     }
+     
+      div log-box{
+            background: -moz-repeating-linear-gradient;
+            background-position: center;
+            backface-visibility: hidden
+      }
+
+     img {
+      
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  background: url("bgimage.png");
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 0px;
+  width: 15%;
+  height: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+
+            
+      
+     
